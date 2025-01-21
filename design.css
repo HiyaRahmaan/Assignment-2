@@ -109,7 +109,8 @@ border: none;
 }
 #banner{
     display: flex;
-    border-bottom: 2px dashed black;
+    border-bottom: 2px dashed rgb(181, 181, 181);
+
 
 
 }
@@ -150,9 +151,63 @@ border: none;
      color: rgb(1, 172, 253);
  
 }
+.paragraph{
+    color: rgb(17, 17, 17);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+}
+.Enroll{
+    /* Frame 3 */
+position: static;
+width: 197px;
+height: 50px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 10px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 24px 0px;
+
+border-radius: 12px;
+
+/* Black */
+background: rgb(17, 17, 17);
+color: white;
+color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+border: none;
+}
 #burger{
     display: none;
     
+}
+.standard-curriculum{
+    text-align: center;
+
+    color: rgb(0, 0, 0);
+font-family: Quicksand;
+font-size: 40px;
+font-weight: 700;
+line-height: 57.5px;
+letter-spacing: 0%;
+text-align: center;
 }
 #standard-curriculum{
     background-image: url(bg.png);
@@ -160,13 +215,14 @@ border: none;
     display: flex;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    gap:10px;
 
 }
 .card1, .card2, .card3{
     display: flex;
     flex-direction: column;
     align-items: center;
- 
+    
 }
 .card1{
     box-sizing: border-box;
@@ -228,8 +284,14 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
         display: flex;
         flex-direction:column-reverse;
         align-items: center;
+        
     }
     .banner-description{
         align-items: center;
+        text-align: center;
+    }
+    #standard-curriculum{
+        display: flex;
+        flex-direction: column;
     }
 }
